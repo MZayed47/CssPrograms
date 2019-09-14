@@ -1,0 +1,84 @@
+body{
+color: brown;
+background-color: #94DAD4;
+margin: 20px;
+border: 5px solid black;
+padding: 20px;
+}
+
+h1{
+color: black;
+border-bottom: 5px double black;
+text-align: center;
+}
+
+h2{
+color: black;
+text-decoration: underline;
+text-align: center;
+}
+
+h3{
+color: black;
+text-decoration: underline;
+}
+
+p.fb{
+color: purple;
+line-height: 25px;
+background-color: silver;
+padding: 20px;
+border: 5px groove red;
+}
+
+#repeat{
+color: maroon;
+line-height: 25px;
+background-image: url(IMG_4345.JPG);
+padding: 20px;
+border: 5px ridge red;
+margin: 50px;
+border-radius: 20px;
+}
+
+.image{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 5px; 
+border: 5px ridge blue;
+background-color: grey;
+}
+
+.highlight{
+background-color: yellow;
+}
+
+.links{
+text-align: left;
+}
+
+a:link{
+color: blue;
+}
+
+a:visited{
+color: grey;
+}
+
+a:hover{
+color: red;
+}
+
+p.profile{
+color: blue;
+}
+
+p.wall{
+color: green;
+}
+
+ul{
+color: green;
+font-size: 20px;
+}

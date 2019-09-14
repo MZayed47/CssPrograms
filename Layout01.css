@@ -1,0 +1,166 @@
+body{
+background-color: #9F9F80;
+margin: 0px;
+font-family: helvetica;
+}
+
+/* ==================== HEADER SECTION ==================== */
+
+#header{
+background-color: #567656;
+margin: 10px;
+border-radius: 5px;
+height: 80px;
+box-shadow: inset 0px 0px 20px black;
+}
+
+h1{
+color: red;
+font-size: 150%;
+}
+
+h2{
+color: navy;
+}
+
+#header h1{
+color: white;
+font-size: 220%;
+text-align: center;
+text-shadow: 5px 5px 5px black;
+margin: 0px;
+
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+#logo1{
+max-width: 100%;
+max-height: 100%;
+float: left;
+}
+
+#logo2{
+max-width: 100%;
+max-height: 100%;
+float: right;
+}
+
+/* ==================== LAYOUT SECTION ==================== */
+
+#menu{
+background-color: #567656;
+margin: 10px;
+border-radius: 5px;
+height: 31px;
+box-shadow: inset 0px 0px 10px black;
+}
+
+#menu ul{
+list-style: none;
+text-align: center;
+padding: 4px;
+}
+
+#menu ul li{
+display: inline;
+}
+
+#menu ul li a{
+font-weight: bold;
+text-decoration: none;
+color: white;
+padding: 6px 60px;
+vertical-align: middle;
+}
+
+#menu ul li a:hover{
+background-color: #e7e7e7;
+color: black;
+box-shadow: inset 0px 0px 10px black;
+}
+
+.main{
+background-color: #e7e7e7;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 320px;
+padding: 20px;
+border-radius: 5px;
+}
+
+.sidebar{
+background-color: #e7e7e7;
+margin-top: 0px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 20px;
+border-radius: 5px;
+float: right;
+width: 260px;
+clear: right;
+}
+
+.sidebar_image{
+margin-top: 0px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+border-radius: 5px;
+float: right;
+width: 300px;
+clear: right;
+opacity: 0.6;
+transition: opacity 0.5s ease-in-out;
+}
+
+.sidebar_image:hover{
+opacity: 1.0;
+}
+
+/* ==================== FOOTER SECTION ==================== */
+
+#footer{
+background-color: #567656;
+margin: 10px;
+border-radius: 5px;
+height: 80px;
+box-shadow: inset 0px 0px 40px black;
+clear: both;
+
+font-size: 15px;
+color: #e7e7e7;
+text-align: center;
+}
+
+#footer ul{
+list-style: none;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 0px;
+margin: 5px;
+}
+
+#footer ul li{
+display: inline;
+padding: 5px 40px;
+}
+
+#footer ul li a{
+text-decoration: none;
+color: white;
+padding: 5px 20px;
+vertical-align: middle;
+}
+
+#footer ul li a:hover{
+background-color: #e7e7e7;
+color: black;
+box-shadow: inset 0px 0px 10px black;
+}
+

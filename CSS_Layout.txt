@@ -1,0 +1,16 @@
+*** Tutorial 8
+	
+	Transition Property: We can delay the visualization of opacity using transition property.
+	Example:
+		opacity: 0.6;
+		transition: opacity 0.5s ease-in-out;
+
+
+*** Tutorial 19
+	
+	To fit an image in a div element properly, we can use the following property.
+		max-width: 100%;
+		max-height: 100%;
+
+
+

@@ -1,0 +1,25 @@
+body{
+background-color: #94DAD4;
+}
+
+#table_form{
+display: table;
+background-color: teal;
+padding: 20px;
+border: 2px solid black;
+}
+
+.row{
+display: table-row;
+}
+
+.row label{
+display: table-cell;
+padding: 2px;
+text-align: right;
+}
+
+.row input{
+display: table-cell;
+padding: 2px;
+}

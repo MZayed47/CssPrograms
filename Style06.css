@@ -1,0 +1,56 @@
+body{
+background-color: #94DAD4;
+}
+
+#left, #center, #right {
+border: solid 2px green;
+width: 300px;
+padding: 15px;
+margin: 10px;
+}
+
+#left {
+background-color: #FFFFFE;				   
+float: left;
+}
+
+#center {
+background-color: #ECF1EF;							   
+margin: auto;
+}
+
+#right {
+background-color: #EBECE4;
+float: right;
+}
+
+#attribute, #n_child{
+background-color: #EDEDE4;
+border: solid 2px green;
+width: 300px;
+padding: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+
+p{
+color: maroon;
+}
+
+:not(p){
+color: navy;
+}
+
+#n_child p:nth-child(2n+3){
+	background-color: orange;
+}
+
+p[lang*="us"] {
+    background-color: orange;
+}
+p[lang^="fr"] {
+    background-color: yellow;
+}
+p[lang$="o"] {
+    background-color: lime;
+}

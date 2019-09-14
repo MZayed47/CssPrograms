@@ -1,0 +1,109 @@
+body{
+margin: 0px;
+}
+
+#container{
+width: 1000px;
+margin: 0px auto;
+}
+
+#header{
+background-color: #567656;
+height: 80px;
+//width: 996px;
+border: 2px solid black;
+}
+
+#menu{
+background-color: grey;
+height: 30px;
+//width: 996px;
+border: 2px solid black;
+}
+
+.sidebar{
+background-color: #e7e7e7;
+height: 1000px;
+width: 196px;
+border: 2px solid black;
+float: left;
+}
+
+.main{
+background-color: #9F9F80;
+height: 1000px;
+width: 796px;
+border: 2px solid black;
+float: left;
+}
+
+#minipanel01, #minipanel02, #minipanel03{
+font-family: arial;
+font-size: 80%;
+color: white;
+background-color: #455565;
+width: 220px;
+
+margin: 10px;
+border: 2px solid black;
+border-radius: 5px;
+padding: 10px;
+
+float: left;
+}
+
+.image{
+text-align: center;
+margin: auto;
+}
+
+#logo1{
+max-width: 100%;
+max-height: 100%;
+display: block;
+float: left;
+}
+
+#logo2{
+max-width: 100%;
+max-height: 100%;
+display: block;
+float: right;
+}
+
+#logo3{
+max-width: 100%;
+max-height: 100%;
+display: block;
+margin: auto;
+}
+
+/* ==================== MEDIA QUERY SECTION ==================== */
+
+@media(max-width: 1000px){
+
+.sidebar{
+display: none;
+}
+
+#header, #menu{
+width: 796px;
+}
+
+}
+
+@media(max-width: 800px){
+
+#minipanel03{
+float: none;
+}
+
+}
+
+@media(max-width: 540px){
+
+#minipanel02{
+float: none;
+}
+
+}

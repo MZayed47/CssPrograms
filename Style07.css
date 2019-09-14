@@ -1,0 +1,68 @@
+body{
+background-color: #94DAD4;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6{
+margin: 20px;
+width: 400px;
+height: 300px;
+float: left;
+background-color: navy;
+}
+
+#box2{
+opacity: 0.5;
+}
+
+#box2:hover{
+opacity: 1.0;
+}
+
+#box3{
+background: linear-gradient(red,navy);
+}
+
+#box4{
+background: linear-gradient(to top right, orange, purple);
+}
+
+#box5{
+background: linear-gradient(to right, blue, white, red);
+}
+
+#box6{
+background: linear-gradient(rgba(255,255,0,0.5),rgba(0,0,255,1.0));
+}
+
+#box7, #box8{
+margin: 20px;
+width: 400px;
+height: 300px;
+float: left;
+background-color: grey;
+}
+
+#box7{
+box-shadow: 5px 5px 5px black;
+}
+
+#box8{
+box-shadow: inset 0px 0px 40px black;
+}
+
+#text1, #text2, #text3{
+text-align: center;
+font: bold 40px verdana;
+}
+
+#text1{
+text-shadow: 2px 2px 5px purple;
+}
+
+#text2{
+text-shadow: 2px 2px 5px orange, 6px 6px 5px purple;
+}
+
+#text3{
+text-shadow: 2px 2px 5px rgba(0,0,255,0.8);
+}

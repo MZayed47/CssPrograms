@@ -1,0 +1,309 @@
+*** Tutorial-13:
+
+we can use colors to our webpage in three different ways. 
+	1. 16 basic colors.   background-color: aqua,black,blue,fuchsia,grey,green,lime,maroon,navy,olive,purple,red,silver,teal,white,yellow,orange;
+	2. rgb colors.   rgb(250,130,70);
+	3. Hex codes.    #FFCF80,#CDA87D,#CBB580,#95ECE5,#94DAD4;
+	
+*** Tutorial 14:
+
+There are 3 different ways to insert css in our html code.
+	
+	1. Internal Style sheet: this style is used within the html code. the css styles are written in the head element.
+			example: <head>
+					 <style>
+					 body{
+					 color: gray;
+					 }
+					 </style>
+					 </head>
+	2. external style sheet: this style is inserted using a reference css file.
+			example: <link rel="stylesheet" type="text/css" href="Style01.css">
+	
+	3. Inline style.
+			example: <p style="color:brown; font-family:verdana; text-decoration:italic">
+			
+*** Tutorial 15:
+
+	font-size: 25px; 150%; 1.5em;
+	line-height: 1.5em; 150%;
+
+*** Tutorial 17:
+	
+	padding: 20px;
+	border: 5px solid black;
+	margin: 20px;
+	(top, bottom, left, right)
+	
+*** Tutorial 19:
+	
+	To set an image in the centre point of a web-page, we can use the below code-
+	
+	.image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+*** Tutorial 21:
+	
+	background-image: url(IMG_4345.JPG);
+	
+*** Tutorial 22:
+	
+	ID attribute:
+	
+	In html : <p id="special">
+	In css : #special{}
+	
+*** Tutorial 23:
+	
+	text-align: center; left; right;
+	
+*** Tutorial 24:
+	
+	border-color: name; rgb(;;); #hexcode;
+	border-width: thin; thick; medium; 5px;
+	border-style: solid; dashed; dotted; double; groove; ridge; inset; outset;
+
+*** Tutorial 25:
+	
+	border-radius: 30px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	
+	border-top-color: blue;
+	border-bottom-width: 5px;
+	border-right-style: inset;
+	border-left-style: outset;
+	
+*** Tutorial 26
+	
+	To divide sections in a web a page, we can use 'div' element tag. Each section may contain several elements like - h1/h2/p/img/etc.
+	
+	<div class="divhead">
+	<p> This is the head of the web-page. </p>
+	</div>
+	
+	'div' elements can also be nested. We can use a 'div' element within another 'div' element.
+	Note: 'div' element doesn't do anything on it's own. It just specifies or divides the sections.
+		  We can modify the sections differently in the style sheet, using the class name.
+	
+*** Tutorial 27
+	
+	'SPAN' is the shorter version of 'div'. We can work on a part of text within an element using 'span'
+	
+	<span class="highlight"> This text is going to be highlighted. </span>
+	<span style="text-decoration: underline"> This text is going to be underlined. </span>
+	
+*** Tutorial 28
+	
+	Adding another web page!
+	
+	<a href="something.html"> Another web-page! </a>
+	
+*** Tutorial 29
+	
+	pseudo classes:
+	
+	a:link{
+	color: blue;
+	}
+	
+	a:visited{
+	color: grey;
+	}
+	
+	a:hover{
+	color: orange;
+	}
+	
+										----------------
+										*** Part Two ***
+										----------------
+	
+*** Tutorial 30
+	
+	Elements can be divided into two basic types.
+		1. Block elements : top-down positioning. Ex: headers, paragraphs, div (etc).
+		2. Inline elements : side by side positioning. Ex: image, span.
+		
+*** Tutorial 31
+
+	1. Block elements get margin over all the sides(top,bottom,left,right). But between two block elements, the higher margin is considered.
+	2. Inline elements get margin only at left & right. It gets no margin at top or bottom. But exception is: Image (It acts more like block element for margin).
+		
+*** Tutorial 32 ***
+	
+	We can not centre an inline element. So, we can use "display" attribute to convert an inline element into a block element.
+		
+		image{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	
+*** Tutorial 33
+	
+	We can float elements to the left or right in a web page. When we use a float attribute to an element, the whole element is outside the flow of css.
+	
+	Ex: width: 50%;
+		float: left;
+		
+*** Tutorial 34 ***
+	
+	Absolute Positioning:
+		An absolute positioned element is 100% out of flow in the css.
+	Ex: 
+		position: absolute;
+		top: 500px;
+		left: 300px;
+		
+*** Tutorial 35
+	
+	Fixed Positioning:
+		A fixed positioned element is fixed in the web page view monitor. When the page is scrolled, the fixed element is remained in the fixed position defined.
+		It can be defined fixed at top, bottom, left, right.
+	Ex:
+		position: fixed;
+		top: 100px;
+		right: 200px;
+		
+*** Tutorial 36 ***
+	
+	Overflow mechanism: (Use of Scroll Bar)
+		If the text content in a block element overflows from the size (or height) of the block element, we can use "overflow" property to use scrollbar.
+		We can also hide the overflowed text.
+	Ex:
+		.block{
+		height: 200px;
+		overflow: scroll;
+		overflow: hidden;
+		}
+	
+*** Tutorial 37
+	
+	Cursor Property:
+		cursor: default; inherit; auto; url; crosshair; pointer; move; text; help; hand; no-drop; alias; progress; wait; grab; grabbing; copy; cell; spinning; none;
+		
+*** Tutorial 38
+	
+	Custom cursor:
+		cursor: url("mail.ico"), default;
+		
+*** Tutorial 40 ***
+	
+	Relative Positioning:
+		Every element in the html is static positioned by default. When we use relative positioning for a element, the element is positioned relative to the
+		previous static element.
+	
+*** Tutorial 41-42 ***
+	
+	Vertical Menu:
+		
+		
+*** Tutorial 43 ***
+	
+	Horizontal Menu:
+		
+		
+*** Tutorial 44 ***
+	
+	Button:
+		
+		
+*** Tutorial 46-47 ***
+	
+	Web form with CSS:
+		
+		
+*** Tutorial 51
+	
+	Sibling selector: Selects the sibling element adjacent to the selector element.
+		h2+p{
+		color: red;		// Selects only the sibling adjacent to h2.
+		}
+		
+		h2~p{
+		color: purple;		// Selects all the siblings next to h2.
+		}
+
+*** Tutorial 52
+	
+	Attribute Selector: 		
+		HTML:
+		<p lang="en-us ja"> Some text </p>
+		<p lang="fr"> Some more text </p>
+		<p lang="fr ko"> Even more text </p>
+		
+		CSS:
+		p[lang*="us"] {
+			background-color: orange;		//anywhere founds the "us"
+		}
+		p[lang^="fr"] {
+			background-color: yellow;		//searches at first
+		}
+		p[lang$="o"] {
+			background-color: teal;			//searches at last
+		}
+
+*** Tutorial 53
+	
+	nth-child selector:
+		#id p:nth-child(2n+3){
+			background-color: orange;
+		}
+	
+*** Tutorial 54
+	
+	not Selector: "not" selector excludes the css rule of the selected element in the css style sheet. It doesn't work with the elements in html.
+				It works with the css rule of the selected element. 
+		:not(p){
+		color: darkgreen;
+		}
+		
+*** Tutorial 55
+	
+	first selctor:		
+		p::first-letter{
+		font-weight: bold;
+		font-size: 25px;
+		}
+		p:first-line{
+		color: red;
+		}
+
+*** Tutorial 56
+	
+	Opacity Property: This property is used for transparency of an element such as "div". It ranges from 0.0 to 1.0
+					  1.0 means no transparency.
+					  0.0 means full transparency.
+		Example:
+				opacity: 0.5;
+
+*** Tutorial 57-58
+	
+	Liner Gradient Property: Using this property, we can mix up as many colors as we want. The default positioning is top-down order.
+							 But we can specify the positioning at first. We can use percentage to dominate a color over other colors.
+	Example:
+			background: linear-gradient(to left, red, blue)
+			background: linear-gradient(to top right, red, blue 20%)
+			background: linear-gradient(red 50%, blue 50%)
+			background: linear-gradient(rgba(255,255,0,0.5),rgba(0,0,255,1.0));
+
+*** Tutorial 59
+	
+	Text-shadow Property: text-shadow: horizontal vertical blur color;
+	Example:	
+			text-shadow: 3px 3px 5px orange;
+			text-shadow: 3px 3px 5px orange, 4px 4px 6px purple;
+		
+*** Tutorial 60
+	
+	Box-shadow Property: box-shadow: horizontal vertical blur color;
+	Example:
+			box-shadow: 5px 5px 5px black;
+			box-shadow: inset 0px 0px 40px black;
+

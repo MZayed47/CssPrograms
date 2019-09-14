@@ -1,0 +1,28 @@
+body{
+margin: 20px;
+border: 5px solid black;
+padding: 20px;
+background-color: #94DAD4;
+}
+
+.image{
+position: fixed;
+top: 40px;
+right: 40px;
+}
+
+.div01{
+padding: 10px;
+border: 5px solid black;
+border-radius: 20px;
+background: silver;
+}
+
+.div02{
+padding: 10px;
+border: 5px solid black;
+border-radius: 20px;
+background: yellow;
+height: 200px;
+overflow: scroll;
+}

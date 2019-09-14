@@ -1,0 +1,51 @@
+body{
+color: brown;
+background-color: #FFCF80;
+font-family: Verdana, Arial, Geneva;
+font-weight: bold;
+}
+
+h1{
+color: black;
+border: 5px solid gray;
+}
+
+h3{
+color: black;
+border-bottom: 2px solid gray;
+text-decoration: overline solid gray;
+font-style: italic;
+}
+
+p.profile{
+color: navy;
+font-family: courier new;
+}
+
+p.post{
+color: green;
+font-family: courier new;
+}
+
+.wall{
+color: red;
+font-family: courier new;
+}
+
+blockquote{
+text-decoration: line-through;
+}
+
+ul{
+color: green;
+font-size: 15px;
+}
+
+ol{
+color: purple;
+font-size: 15px;
+}
+
+li{
+text-decoration: underline solid olive;
+}
